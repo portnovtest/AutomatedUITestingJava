@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sample.framework'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    // https://mvnrepository.com/artifact/io.appium/java-client
+    compile group: 'io.appium', name: 'java-client', version: '7.0.0'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-junit
+    compile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer
+    compile group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.5'
+    // https://mvnrepository.com/artifact/org.reflections/reflections
+    compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
+    // https://mvnrepository.com/artifact/com.udojava/EvalEx
+    compile group: 'com.udojava', name: 'EvalEx', version: '2.1'
+
+    // https://mvnrepository.com/artifact/org.codehaus.jettison/jettison
+    compile group: 'org.codehaus.jettison', name: 'jettison', version: '1.4.0'
+    // https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-common', version: '2.29'
+
+
+
+
+
+
+}
